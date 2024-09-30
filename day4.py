@@ -80,7 +80,6 @@ my_dict = {
     "age": 30
 }
 
-
 # 14. Let's understand dictionary with Indian analogy
 # A person's identity card, which contains information like name, age, address, etc.
 
