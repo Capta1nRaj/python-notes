@@ -1,3 +1,9 @@
+#! Importing the "myNamePrintModule" module in the ile
+import sys
+# sys.path is a list of absolute path strings
+sys.path.append('day6/myNamePrintModule.py')
+import myNamePrintModule
+
 import os
 import math
 os.system('cls')
