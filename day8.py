@@ -1,4 +1,5 @@
 # Day 8 Notes
+#^ Slide 2
 #! 1. What is Object-Oriented Programming (OOP)? 
 # It is a way of writing code using classes and objects to represent real-world things.
 # It helps organize code into reusable parts, making it easier to build and manage programs.
@@ -10,6 +11,7 @@
 # Encapsulation: Hides data to protect it.
 # Polymorphism: Lets objects use the same method in different ways.
 
+#^ Slide 3
 #! 3. Let's understand OOP as Indian Family System Analogy.
 #* Family Members = Objects
 # Each family member (father, mother, child) is like an object in OOP.
@@ -20,14 +22,17 @@
 #* Behaviors = Actions
 # Family members do specific activities like cooking, working, or studying. Similarly, objects in OOP have methods that define what they can do.
 
+#^ Slide 4
 #! 4. What is a Class in OOP?
 # It is a blueprint or template for creating objects in programming.
 # It defines the attributes (data) and methods (functions) that describe the behavior and properties of the objects created from it.
 # It allows you to create multiple objects (instances) with shared attributes and behaviors, defined by a common template.
 
+#^ Slide 5
 #! 5. What is an Object?
 # An object is a unique instance of a class with its own attribute values and can perform behaviors defined by the class.
 
+#^ Slide 6
 #! 6. Indian Thali Analogy for OOP:
 # Recipe (Class):
 # The recipe acts as a blueprint that defines the ingredients and preparation methods, similar to how a class defines attributes and behaviors for objects.
@@ -35,6 +40,7 @@
 # Thali (Object):
 # The thali is the actual meal prepared using the recipe, but each thali can have variations (e.g., different side dishes or plating), just like objects created from a class have unique attribute values.
 
+#^ Slide 7, & 8
 #! 7. Basic example of OOP:
 #* 7.1. Define a class named 'Car'
 class Car:
@@ -71,6 +77,7 @@ car1 = Car()                                 # Create an object of the 'Car' cla
 car1.set_attributes("Red", "Sedan")           # Use the custom method to set attributes for 'car1' object
 car1.start()                                  # Call the 'start' method for 'car1'; Output: 'Sedan is starting.'
 
+#^ Slide 9
 #! 8. What is Inheritance?
 # What is Inheritance?
 # Inheritance allows one class to inherit the properties and methods of another class.
@@ -101,6 +108,7 @@ class Dog(Animal):                        # 'Dog' is a subclass of 'Animal'
 my_dog = Dog()                            # Create an instance of Dog class
 my_dog.speak()                            # Call the 'speak' method; Output: Dog is barking
 
+#^ Slide 12
 #! 9. Why to use Inheritance?
 #* 9.1. Code Reuse:
 # Write common code once in the parent class and share it with child classes.
@@ -121,6 +129,7 @@ my_dog.speak()                            # Call the 'speak' method; Output: Dog
 #* 10.3. Bike Class (Child Class)
 # The Bike class also inherits from the Vehicle class and adds features like handlebar and pedals, which are specific to bikes.
 
+#^ Slide 13
 #! 11. Multiple vs Single Inheritance:
 #* 11.1 Multiple Inheritance:
 # A class inherits from multiple parent classes, combining features from all parents.
@@ -197,6 +206,7 @@ class Dog(Animal):
 my_dog = Dog("Dog", "Not Dangerous", "Black")  # Create an instance of Dog with name, danger, and color
 my_dog.animalColor()                           # Output: Dog is Red
 
+#^ Slide 14
 #! 13. What is Encapsulation?
 #* 13.1. Bundling
 # Group related data and methods together inside a class.
@@ -207,6 +217,7 @@ my_dog.animalColor()                           # Output: Dog is Red
 #* 13.3. Control
 # Use getter and setter methods to manage how data is accessed and modified safely.
 
+#^ Slide 15
 #! 14. There are 2 types of Encapsulation:
 # Private vs Public: 
 #* 14.1. Private
@@ -254,6 +265,7 @@ print(account.__balance)                    # This will cause an AttributeError 
 # Controlled Access: Only specific methods can change the balance.
 # Data Integrity: Prevents invalid operations like withdrawing more money than available.
 
+#^ Slide 18
 #! 16. Getters and Setters:
 # Getters and setters are methods used to access and modify the private attributes of a class.
 
@@ -323,6 +335,7 @@ birds = [Sparrow(), Eagle()]  # List of different bird objects
 for bird in birds:
     bird.sound()  # Output: Chirp Chirp (for Sparrow), Screech (for Eagle)
 
+#^ Slide 28
 #! 18. What is Abstraction?
 # Abstraction is the process of hiding the complex implementation details and showing only the essential features of an object.
 # It focuses on what an object does rather than how it does it.
